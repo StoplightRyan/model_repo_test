@@ -1,0 +1,39 @@
+{
+  "title": "New-Model",
+  "x-stoplight": {
+    "id": "q8o350ogdiiaj"
+  },
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "op-id": {
+      "type": "string"
+    },
+    "authentication": {
+      "type": "object",
+      "properties": {
+        "email": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "token": {
+          "type": "number"
+        },
+        "randomparam": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "op-id"
+  ]
+}
